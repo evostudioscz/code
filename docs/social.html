@@ -4,7 +4,7 @@
 <body>
   
  <style>
-  *{
+*{
 	margin: 0;
 	padding: 0;
 	font-family: Century Gothic;
@@ -13,53 +13,41 @@
 
 
 ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 15px;
-	margin-right: 10px;
-
+  float: right;
+  list-style-type: none;  
+  position: absolute;
+  right: 25%;
+  top: 50%;
 }
 
 ul li{
-	display: inline-block;
+  display: inline-block;
 }
 
 ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 20px;
-	border: 1px solid transparent;
-	transition: 0.6s ease;
+  text-decoration: none;
+  color: #fff;
+  padding: 80px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
 }
 
 ul li a:hover{
-	background-color: #fff;
-	color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 ul li.active a{
-	background-color: #fff;
-	color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
-.title{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.title h1{
-	color: #fff;
-	font-size: 70px;
-	font-family: cursive;
-}
 
 .button{
 	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	top: 15px;
+	right: 5px
+	
 
 }
 
@@ -67,8 +55,7 @@ ul li.active a{
 	border: 1px solid #fff;
 	padding: 10px 30px;
 	color: #fff;
-	te
-xt-decoration: none;
+	text-decoration: none;
 	transition: 0.6s ease;
 }
 
@@ -76,6 +63,20 @@ xt-decoration: none;
 	background-color: #fff;
 	color: #000;
 
+}
+
+button.activate{
+	background-color: #fff;
+	color: #000;
+}
+
+h1{
+	font-family: cursive;
+	font-size: 70px;
+	position: absolute;
+	left: 5px;
+	top: 15px;
+	color: #fff;
 }
 	</style>
 <header>
@@ -97,4 +98,34 @@ xt-decoration: none;
 			</ul>
 		</div>
 <body>
-<header>
+	
+	<!DOCTYPE html>
+<html>
+<head>
+		<title>Social</title>
+		<link rel="stylesheet" type="text/css" href="css/social.css">
+	</head>
+<body>
+	<header>
+		<div class="main">
+			<ul>
+				<li><a  href="https://www.instagram.com/floowstore_/">Instagram<img src="ig.png" width="80" height="80 "></a></li>
+				<li><a  href="https://www.youtube.com/channel/UCpN_X_z95A10JHvCp3lYJFQ">Youtube<img src="yt.png" width="80" height="80 "></a></li>
+				<li><a href="https://www.instagram.com/ghost_gamer_lp/">Instagram(Developer)<img src="ig.png" width="80" height="80"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCwSJZLCAPyd7sVMXvoYnQgQ?view_as=subscriber">Youtube(Developer)<img src="yt.png" width="80" height="80"></a></li>
+			</ul>
+		</div>
+	
+		<div class="button">
+			<a href="https://b9fl0ou8ip4ghiizwcb3qa-on.drv.tw/www.floowstore.com/index.html" class="btn">Home</a>
+			<a href="https://b9fl0ou8ip4ghiizwcb3qa-on.drv.tw/www.floowstore.com/products.html" class="btn">Products</a>
+				<a href="https://b9fl0ou8ip4ghiizwcb3qa-on.drv.tw/www.floowstore.com/contact.html" class="btn">Contact</a>
+			<a href="https://b9fl0ou8ip4ghiizwcb3qa-on.drv.tw/www.floowstore.com/gallery.html" class="btn">Gallery</a>
+		<h1>SOCIAL</h1>
+		</div>
+  </div>
+			
+	
+	</body>
+</html>
+</header>
